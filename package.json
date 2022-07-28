@@ -1,0 +1,29 @@
+{
+  "name": "adaichat",
+  "version": "0.1.0",
+  "description": "cours node : creation de chat",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuffydouSenpai/adaichat.git"
+  },
+  "keywords": [
+    "project",
+    "formation",
+    "cours",
+    "chat"
+  ],
+  "author": "Luffydou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuffydouSenpai/adaichat/issues"
+  },
+  "homepage": "https://github.com/LuffydouSenpai/adaichat#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
+  }
+}

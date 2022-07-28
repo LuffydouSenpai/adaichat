@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#messagesFrame{
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    min-height: 25rem;
+}
+
+.messages{
+    display: flex;
+}
+
+.messages p{
+    margin-left: 5px;
+}
+
+#private{
+    position: fixed;
+    z-index: 10;
+}
+
+#private:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: flex;
+}
+
+.privateMessages{
+    display: flex;
+    color: pink;
+}
+
+.privateMessages p{
+    color: pink;
+}
+
+#responsePrivate, #private{
+    z-index: 11;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100vw;
+    height: 100vh;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+#responsePrivateInner, #privateInner{
+    position: relative;
+    width: 80vw;
+    height: 80vh;
+    border: 1px solid pink;
+    background-color: white;
+}
+
+#closePrivate{
+    top: 3rem;
+    right: 3rem;
+}
+
+.close{
+    z-index: 12;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.close:hover{
+    cursor: pointer;
+    padding: 0.5rem;
+    color: white;
+    background-color: red;
+
+}
